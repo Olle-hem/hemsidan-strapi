@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cardes",
+  "info": {
+    "singularName": "cards",
+    "pluralName": "cardes",
+    "displayName": "cards"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "card1": {
+      "type": "text"
+    },
+    "card2": {
+      "type": "text"
+    }
+  }
+}

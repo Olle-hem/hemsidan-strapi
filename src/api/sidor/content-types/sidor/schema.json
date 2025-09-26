@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sidors",
+  "info": {
+    "singularName": "sidor",
+    "pluralName": "sidors",
+    "displayName": "Sidor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

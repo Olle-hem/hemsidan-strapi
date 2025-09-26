@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "card_buttons",
+  "info": {
+    "singularName": "card-button",
+    "pluralName": "card-buttons",
+    "displayName": "CardButton"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  }
+}

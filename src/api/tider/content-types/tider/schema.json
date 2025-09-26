@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "tiders",
+  "info": {
+    "singularName": "tider",
+    "pluralName": "tiders",
+    "displayName": "tider"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "monday": {
+      "type": "string"
+    },
+    "tuesday": {
+      "type": "string"
+    },
+    "wednesday": {
+      "type": "string"
+    },
+    "thursday": {
+      "type": "string"
+    },
+    "friday": {
+      "type": "string"
+    },
+    "saturday": {
+      "type": "string"
+    },
+    "sunday": {
+      "type": "string"
+    }
+  }
+}
