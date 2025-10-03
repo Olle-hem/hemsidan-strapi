@@ -1,25 +1,18 @@
 {
-  "name": "my-app-name",
-  "version": "0.1.0",
+  "name": "my-strapi-app",
+  "version": "1.0.0",
   "private": true,
-  "description": "A Strapi application",
+  "description": "A minimal Strapi 5 application without Cloud plugins",
   "scripts": {
-    "build": "npm install & strapi build",
-    "deploy": "strapi deploy",
     "develop": "strapi develop",
-    "seed:example": "node ./scripts/seed.js",
     "start": "strapi start",
-    "strapi": "strapi"
+    "build": "strapi build"
   },
   "dependencies": {
-    
-    "better-sqlite3": "11.3.0",
-    "fs-extra": "^10.0.0",
-    "mime-types": "^2.1.27",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "^6.0.0",
-    "styled-components": "^6.0.0"
+    "@strapi/strapi": "5.15.0",
+    "@strapi/plugin-users-permissions": "5.15.0",
+    "better-sqlite3": "^11.3.0",        
+    "pg": "^8.11.1"                     
   },
   "engines": {
     "node": ">=18.0.0 <=22.x.x",
