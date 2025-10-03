@@ -1,18 +1,22 @@
 {
-  "name": "my-strapi-app",
-  "version": "1.0.0",
+  "name": "my-app-name",
+  "version": "0.1.0",
   "private": true,
-  "description": "A minimal Strapi 5 application without Cloud plugins",
+  "description": "A Strapi application",
   "scripts": {
+    "build": "npm install && strapi build",
+    "deploy": "strapi deploy",
     "develop": "strapi develop",
+    "seed:example": "node ./scripts/seed.js",
     "start": "strapi start",
-    "build": "strapi build"
+    "strapi": "strapi"
   },
   "dependencies": {
     "@strapi/strapi": "5.15.0",
     "@strapi/plugin-users-permissions": "5.15.0",
     "better-sqlite3": "^11.3.0",        
-    "pg": "^8.11.1"                     
+    "pg": "^8.11.1",         
+    "lodash": "^4.17.21"
   },
   "engines": {
     "node": ">=18.0.0 <=22.x.x",
